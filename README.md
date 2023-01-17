@@ -3,6 +3,9 @@ ATESO GmbH is proud to introduce our containerized environment for ERPNext, desi
 
 Enjoy 👍
 
+## How to install using setup_asteso_erpnext.sh
+Login to the console of a unix system and execute the shell script.
+
 <!---
 ## Features
 
