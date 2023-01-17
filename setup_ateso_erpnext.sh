@@ -11,8 +11,7 @@ else
 fi
 
 # Install ateso erpnext containers
-COMMAND="
-docker compose -f ateso_erpnext_container/compose.yaml -f ateso_erpnext_container/overrides/compose.noproxy.yaml -f ateso_erpnext_container/overrides/compose.mariadb.yaml -f ateso_erpnext_container/overrides/compose.redis.yaml -f ateso_erpnext_container/compose.override.yaml up -d;
+COMMAND="docker compose -f ateso_erpnext_container/compose.yaml -f ateso_erpnext_container/overrides/compose.noproxy.yaml -f ateso_erpnext_container/overrides/compose.mariadb.yaml -f ateso_erpnext_container/overrides/compose.redis.yaml -f ateso_erpnext_container/compose.override.yaml up -d;
 docker compose exec backend bench new-site frontend --mariadb-root-password 123 --admin-password admin --install-app erpnext --install-app erpnextswiss --set-default;
 docker compose restart backend
 "
