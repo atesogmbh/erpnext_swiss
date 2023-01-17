@@ -12,6 +12,7 @@ fi
 
 # Install ateso erpnext containers
 COMMAND="
+cd ateso_erpnext_container;
 docker-compose -f compose.yaml -f overrides/compose.noproxy.yaml -f overrides/compose.mariadb.yaml -f overrides/compose.redis.yaml -f compose.override.yaml up -d;
 docker-compose exec backend bench new-site frontend --mariadb-root-password 123 --admin-password admin --install-app erpnext --install-app erpnextswiss --set-default;
 docker-compose restart backend
@@ -23,7 +24,7 @@ RETURN_VALUE=$?
 
 # Check the return value
 if [ $RETURN_VALUE -eq 0 ]; then
-  echo "Installation executed successfully. You can reach the web interface via the https://your-system-ip:8080.
+  echo "Installation executed successfully. You can reach the web interface using http://your-system-ip:8080.
   Username: administrator
   Password: admin
 
