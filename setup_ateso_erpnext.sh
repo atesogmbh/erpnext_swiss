@@ -11,18 +11,19 @@ else
 fi
 
 # Install ateso erpnext containers
-COMMAND="docker compose -f ateso_erpnext_container/compose.yaml -f ateso_erpnext_container/overrides/compose.noproxy.yaml -f ateso_erpnext_container/overrides/compose.mariadb.yaml -f ateso_erpnext_container/overrides/compose.redis.yaml -f ateso_erpnext_container/compose.override.yaml up -d;
-docker compose exec backend bench new-site frontend --mariadb-root-password 123 --admin-password admin --install-app erpnext --install-app erpnextswiss --set-default;
+COMMAND="cd ateso_erpnext_container && 
+docker compose -f compose.yaml -f overrides/compose.noproxy.yaml -f overrides/compose.mariadb.yaml -f overrides/compose.redis.yaml -f compose.override.yaml up -d &&
+docker compose exec backend bench new-site frontend --mariadb-root-password 123 --admin-password admin --install-app erpnext --install-app erpnextswiss --set-default &&
 docker compose restart backend
 "
 
 # Execute the command and store the return value
-$COMMAND
-RETURN_VALUE=$?
+eval "$COMMANDS"
 
 # Check the return value
-if [ $RETURN_VALUE -eq 0 ]; then
-  echo "Installation executed successfully. You can reach the web interface using http://your-system-ip:8080.
+if [ $? -eq 0 ]; then
+  IP_ADDRESS=$(hostname -I)
+  echo "Installation executed successfully. You can reach the web interface using http://$IP_ADDRESS:8080.
   Username: administrator
   Password: admin
 
