@@ -1,0 +1,21 @@
+services:
+  configurator:
+    image: ateso/erpnext-worker:${VERSION}
+
+  backend:
+    image: ateso/erpnext-worker:${VERSION}
+
+  frontend:
+    image: ateso/erpnext-nginx:${VERSION}
+
+  queue-short:
+    image: ateso/erpnext-worker:${VERSION}
+
+  queue-default:
+    image: ateso/erpnext-worker:${VERSION}
+
+  queue-long:
+    image: ateso/erpnext-worker:${VERSION}
+
+  scheduler:
+    image: ateso/erpnext-worker:${VERSION}
