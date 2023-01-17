@@ -1,0 +1,981 @@
+{
+"country_code": "ch",
+"name": "Schweizer Kontenplan KMU (Deutsch)",
+"tree": {
+  "1 Aktiven": {
+    "root_type": "Asset",
+    "10 Umlaufverm\u00f6gen": {
+      "100 Fl\u00fcssige Mittel": {
+      "is_group": 1,
+          "Kasse": {
+          "account_number": "1000",
+          "account_type": "Cash"
+          },
+          "PC Konto": {
+          "account_number": "1010",
+          "account_type": "Cash"
+          },
+          "Bank": {
+              "Bank Konto CHF": {
+              "account_number": "1020",
+              "account_type": "Bank"
+              },
+              "Bank Konto EUR": {
+              "account_number": "1021",
+              "account_type": "Bank"
+              },
+            "account_type": "Bank"
+            }
+        },
+      "106 Kurzfristig gehaltene Aktiven mit B\u00f6rsenkurs": {
+      "is_group": 1,
+          "Wertschriften kurzfristig": {
+          "account_number": "1060"
+          },
+          "Wertberichtigungen Wertschriften kurzfr.": {
+          "account_number": "1069"
+          }
+        },
+      "109 Transferkonten": {
+      "is_group": 1,
+          "Transferkonto": {
+          "account_number": "1090"
+          },
+          "Lohndurchlaufkonto": {
+          "account_number": "1091"
+          },
+          "Unklare Betr\u00e4ge / Pendenzen": {
+          "account_number": "1099"
+          }
+        },
+      "110 Forderungen": {
+      "account_type": "Receivable",
+      "is_group": 1,
+          "Forderungen aus Lieferungen und Leistungen (Debitoren)": {
+          "account_number": "1100",
+          "account_type": "Receivable"
+          },
+          "Wertberichtigungen Forderungen (Delkredere)": {
+          "account_number": "1109"
+          }
+        },
+      "114 \u00fcbrige kurzfristige Forderungen": {
+      "account_type": "Receivable",
+      "is_group": 1,
+          "Vorsch\u00fcsse und Darlehen kurzfristig": {
+          "account_number": "1140"
+          },
+          "Forderungen kfr. geg. Aktionären": {
+          "account_number": "1160"
+          },
+          "Vorsteuer MWST Material,Waren,Dienstleistungen": {
+          "account_number": "1170"
+          },
+          "Vorsteuer MWST Investitionen,\u00fcbriger Betriebsaufwand": {
+          "account_number": "1171"
+          },
+          "Debitor Verrechnungssteuer": {
+          "account_number": "1176"
+          },
+          "Forderungen gegen\u00fcber Sozialversicherungen und Vorsorgeeinrichtungen": {
+          "account_number": "1180"
+          },
+          "Quellensteuer": {
+          "account_number": "1189"
+          },
+          "Sonstige kurzfristige Forderungen": {
+          "account_number": "1190"
+          },
+          "Kautionen": {
+          "account_number": "1191"
+          },
+          "Geleistete Anzahlungen": {
+          "account_number": "1192"
+          },
+          "Mietzinsdepot": {
+          "account_number": "1193"
+          },
+          "Wertberichtigungen sonstige kurzfristige Forderungen": {
+          "account_number": "1199"
+          }
+        },
+      "120 Vorr\u00e4te + nicht fakt. Dienstleistungen": {
+      "is_group": 1,
+          "Vorr\u00e4te Handelswaren": {
+          "account_number": "1200",
+          "account_type": "Stock"
+          },
+          "Vorr\u00e4te Rohstoffe": {
+          "account_number": "1210",
+          "account_type": "Stock"
+          },
+          "Vorr\u00e4te Hilfs- und Verbrauchsmaterial": {
+          "account_number": "1230",
+          "account_type": "Stock"
+          },
+          "Vorr\u00e4te Fertigefabrikate": {
+          "account_number": "1240",
+          "account_type": "Stock"
+          },
+          "Vorr\u00e4te Halbfabrikate": {
+          "account_number": "1250",
+          "account_type": "Stock"
+          },
+          "Ware in Arbeit": {
+          "account_number": "1270",
+          "account_type": "Capital Work in Progress"
+          },
+          "Bestand Nicht fakturierte Dienstleistungen": {
+          "account_number": "1280",
+          "account_type": "Capital Work in Progress"
+          }
+        },
+      "130 Aktive Rechnungsabgrenzungen": {
+      "is_group": 1,
+          "Bezahlter Aufwand des Folgejahres (TA)": {
+          "account_number": "1300"
+          },
+          "Noch nicht erhaltener Ertrag": {
+          "account_number": "1301"
+          }
+        }
+      },
+    "14 Anlageverm\u00f6gen": {
+    "account_type": "Fixed Asset",
+    "is_group": 1,
+      "140 Finanzanlagen": {
+      "is_group": 1,
+          "Wertschriften": {
+          "account_number": "1400"
+          },
+          "Wertberichtigungen Wertschriften": {
+          "account_number": "1409"
+          },
+          "Darlehen": {
+          "account_number": "1440"
+          },
+          "Hypotheken": {
+          "account_number": "1441"
+          },
+          "Wertberichtigung langf. Forderungen": {
+          "account_number": "1449"
+          }
+        },
+      "150 Mobile Sachanlagen": {
+      "account_type": "Fixed Asset",
+      "is_group": 1,
+          "Maschinen und Apparate": {
+          "account_number": "1500",
+          "account_type": "Fixed Asset"
+          },
+          "Wertberichtigungen Maschinen und Apparate": {
+          "account_number": "1509",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Mobiliar und Einrichtungen": {
+          "account_number": "1510",
+          "account_type": "Fixed Asset"
+          },
+          "Wertberichtigungen Mobiliar und Einrichtungen": {
+          "account_number": "1519",
+          "account_type": "Accumulated Depreciation"
+          },
+          "B\u00fcromaschinen,Informatik,Kommunikationstechnologie": {
+          "account_number": "1520",
+          "account_type": "Fixed Asset"
+          },
+          "Wertberichtigungen B\u00fcromaschinen,Informatik,Kommunikationstechnologie": {
+          "account_number": "1529",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Fahrzeuge": {
+          "account_number": "1530",
+          "account_type": "Fixed Asset"
+          },
+          "Wertberichtigungen Fahrzeuge": {
+          "account_number": "1539",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Werkzeuge und Ger\u00e4te": {
+          "account_number": "1540",
+          "account_type": "Fixed Asset"
+          },
+          "Wertberichtigungen Werkzeuge und Ger\u00e4te": {
+          "account_number": "1549",
+          "account_type": "Accumulated Depreciation"
+          }
+        },
+      "160 Immobile Sachanlagen": {
+      "account_type": "Fixed Asset",
+      "is_group": 1,
+          "Gesch\u00e4ftsliegenschaften": {
+          "account_number": "1600",
+          "account_type": "Fixed Asset"
+          },
+          "Wertberichtigungen Gesch\u00e4ftsliegenschaften": {
+          "account_number": "1609",
+          "account_type": "Accumulated Depreciation"
+          }
+        },
+      "170 Immaterielle Werte": {
+      "account_type": "Fixed Asset",
+      "is_group": 1,
+          "Patente, Know-how, Lizenzen, Rechte, Entwicklungen": {
+          "account_number": "1700",
+          "account_type": "Fixed Asset"
+          },
+          "Wertberichtigungen Patente, Know-how, Lizenzen, Rechte, Entwicklungen": {
+          "account_number": "1709",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Goodwill": {
+          "account_number": "1770",
+          "account_type": "Fixed Asset"
+          },
+          "Wertberichtigungen Goodwill": {
+          "account_number": "1779",
+          "account_type": "Accumulated Depreciation"
+          }		  
+        }		
+      }
+    },
+  "2 Passiven A": {
+    "root_type": "Liability",
+    "20 Kurzfristiges Fremdkapital": {
+      "200 Verbindlichkeiten Lieferungen + Leist.": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Verbindlichkeiten aus Lieferungen und Leistungen (Kreditoren)": {
+          "account_number": "2000",
+          "account_type": "Payable"
+          },
+          "Erhaltene Anzahlungen": {
+          "account_number": "2030",
+          "account_type": "Payable"
+          }
+        },
+      "210 Kurzfr. verzinsliche Verbindlichkeiten": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Kurzfristige Bankverbindlichkeiten": {
+          "account_number": "2100"
+          },
+          "Kreditkarte": {
+          "account_number": "2110"
+          },
+          "Kurzfristige Verbindlichkeiten aus Finanzierungsleasing": {
+          "account_number": "2120"
+          },
+          "\u00fcbrige verzinsliche Verbindlichkeiten": {
+          "account_number": "2140"
+          }
+        },
+      "220 \u00fcbrige kurzfristige Verbindlichkeiten": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Geschuldete MWST (Umsatzsteuer)": {
+          "account_number": "2200",
+          "account_type": "Tax"
+          },
+          "Abrechnungskonto MWST": {
+          "account_number": "2201"
+          },
+          "Kreditor Verrechnungssteuer": {
+          "account_number": "2206",
+          "account_type": "Tax"
+          },
+          "Direkte Steuern": {
+          "account_number": "2208"
+          },
+          "Sonstige kurzfristige Verbindlichkeiten": {
+          "account_number": "2210"
+          },
+          "Beschlossene Aussch\u00fcttungen / Dividenden": {
+          "account_number": "2261"
+          },
+          "Sozialversicherungen und Vorsorgeeinrichtungen": {
+          "account_number": "2270"
+          },
+          "Geschuldete Quellensteuer": {
+          "account_number": "2279"
+          }
+        },
+      "230 Passive Rechnungsabgr. + kfr. R\u00fcckstell.": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Noch nicht bezahlter Aufwand (TP)": {
+          "account_number": "2300"
+          },
+          "Erhaltener Ertrag des Folgejahres": {
+          "account_number": "2301"
+          },
+          "R\u00fcckstellungen f\u00fcr Garantieverpflichtungen": {
+          "account_number": "2330"
+          },
+          "R\u00fcckstellungen f\u00fcr Steuern": {
+          "account_number": "2340"
+          },
+          "R\u00fcckstellungen f\u00fcr Reparaturen und Unterhalt": {
+          "account_number": "2350"
+          },
+          "R\u00fcckstellungen f\u00fcr Sal\u00e4rverpflichtungen": {
+          "account_number": "2371"
+          },
+          "\u00fcbrige kurzfristige R\u00fcckstellungen": {
+          "account_number": "2391"
+          }
+        }
+      },
+    "24 Langfristiges Fremdkapital": {
+      "240 Langfr. verzinsliche Verbindlichkeiten": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Langfristige Bankverbindlichkeiten": {
+          "account_number": "2400"
+          },
+          "Langfristige Verbindlichkeiten aus Finanzierungsleasing": {
+          "account_number": "2420"
+          },
+          "Darlehen Passiv": {
+          "account_number": "2450"
+          },
+          "Hypotheken Passiv": {
+          "account_number": "2451"
+          }
+        },
+      "250 \u00fcbrige langfristige Verbindlichkeiten": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "\u00fcbrige langfristige Verbindlichkeiten (unverzinslich)": {
+          "account_number": "2500"
+          }
+        },
+      "260 R\u00fcckstellungen + \u00e4hnliche Pos. gem. OR": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Langfristige R\u00fcckstellungen": {
+          "account_number": "2600"
+          }
+        }
+      }
+    },
+  "2 Passiven Eigenkapital": {
+    "root_type": "Equity",
+    "28 Eigenkapital (juristische Person AG,GmbH,Stiftung)": {
+      "280 Grund-,Stammkapital": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Aktien-/Stammkapital": {
+          "account_number": "2800",
+          "account_type": "Equity"
+          }
+        },
+      "290 Reserven,Gewinn-/Verlustvortrag": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Gesetzliche Kapitalreserve": {
+          "account_number": "2900"
+          },
+          "Aufwertungsreserve": {
+          "account_number": "2940"
+          },
+          "Gesetzliche Gewinnreserve": {
+          "account_number": "2950"
+          },
+          "Freiwillige Gewinnreserven": {
+          "account_number": "2960"
+          },
+          "Gewinnvortrag oder Verlustvortrag": {
+          "account_number": "2970"
+          },
+          "Jahresgewinn,Jahresverlust": {
+          "account_number": "2979"
+          }
+        }
+      },
+    "28 Eigenkapital (Einzelfirma)": {
+      "280 Grund-,Stammkapital EF": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Kapital Einzelfirma": {
+          "account_number": "2810",
+          "account_type": "Equity"
+          },
+          "Privat": {
+          "account_number": "2850"
+          }
+        }
+      },
+    "28 Eigenkapital (Kollekitv- /Kommanditgesellschaft)": {
+      "280 Grund-,Stammkapital KG": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Kapital Gesellschafter A": {
+          "account_number": "2820"
+          },
+          "Privat Gesellschafter A": {
+          "account_number": "2821"
+          },
+          "Kapital Kommandit\u00e4r A": {
+          "account_number": "2851"
+          }
+        }
+      },
+    "28 Eigenkapital (Verein)": {
+      "280 Grund-,Stammkapital V": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Vereinskapital": {
+          "account_number": "2830",
+          "account_type": "Equity"
+          }
+        },
+      "290 Reserven,Gewinn-/Verlustvortrag V": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Freiwillige Gewinnreserven V": {
+          "account_number": "2961"
+          },
+          "Gewinnvortrag oder Verlustvortrag V": {
+          "account_number": "2971"
+          }
+        }
+      }
+    },
+  "3 Betrieblicher Ertrag aus Lief. + Leist.": {
+    "root_type": "Income",
+    "30 Erl\u00f6se": {
+      "is_group": 1,
+          "Produktionserl\u00f6se": {
+          "account_number": "3000",
+          "account_type": "Income Account"
+          },
+          "Handelserl\u00f6se": {
+          "account_number": "3200",
+          "account_type": "Income Account"
+          },
+          "Dienstleistungserl\u00f6se": {
+          "account_number": "3400",
+          "account_type": "Income Account"
+          }
+      },
+    "36 \u00fcbrige Erl\u00f6se aus Lief. + Leist.": {
+      "is_group": 1,
+          "\u00fcbrige Erl\u00f6se aus Lieferungen und Leistungen": {
+          "account_number": "3600",
+          "account_type": "Income Account"
+          }
+      },
+    "37 Eigenleistungen und Eigenverbrauch": {
+      "is_group": 1,
+          "Eigenleistungen": {
+          "account_number": "3700"
+          },
+          "Eigenverbrauch": {
+          "account_number": "3710"
+          }
+      },
+    "38 Erl\u00f6sminderungen": {
+      "is_group": 1,
+          "Erl\u00f6sminderungen": {
+          "account_number": "3800"
+          },
+          "Verluste Forderungen (Debitoren),Ver\u00e4nderung Delkredere": {
+          "account_number": "3805"
+          },
+          "MWST Saldosteuersatz": {
+          "account_number": "3809"
+          }
+      },
+    "39 Bestandes\u00e4nderungen": {
+      "is_group": 1,
+          "Bestandes\u00e4nderungen Ware in Arbeit": {
+          "account_number": "3900",
+          "account_type": "Stock Adjustment"
+          },
+          "Bestandes\u00e4nderungen Fertigfabrikate": {
+          "account_number": "3901",
+          "account_type": "Stock Adjustment"
+          },
+          "Bestandes\u00e4nderungen nicht fakturierte Dienstleistungen": {
+          "account_number": "3940"
+          }
+      }
+    },
+  "4 Aufwand Material,Handelswaren,Dienstl.": {
+    "root_type": "Expense",
+    "40 Materialaufwand": {
+      "is_group": 1,
+          "Materialaufwand Produktion": {
+          "account_number": "4000",
+          "account_type": "Cost of Goods Sold"
+          }
+      },
+    "42 Handelswarenaufwand": {
+      "is_group": 1,
+          "Handelswarenaufwand": {
+          "account_number": "4200",
+          "account_type": "Cost of Goods Sold"
+          }
+      },
+    "44 Aufwand f\u00fcr bezogene Dienstleistungen": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Aufwand f\u00fcr bezogene Dienstleistungen": {
+          "account_number": "4400"
+          }
+      },
+    "45 Energieaufwand zur Leistungserstellung": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Energieaufwand zur Leistungserstellung": {
+          "account_number": "4500"
+          }
+      },
+    "46 \u00fcbriger Aufwand Material,Handelswaren": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "\u00fcbriger Materialaufwand Produktion": {
+          "account_number": "4600"
+          },
+          "\u00fcbriger Handelswarenaufwand": {
+          "account_number": "4620"
+          },
+          "Aufwand f\u00fcr Verpackung": {
+          "account_number": "4650"
+          },
+          "Ver\u00e4nderung der Garantier\u00fcckstellungen": {
+          "account_number": "4660"
+          }
+      },
+    "47 Direkte Einkaufsspesen": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Eingangsfrachten und Spedition": {
+          "account_number": "4700"
+          },
+          "Einfuhrz\u00f6lle": {
+          "account_number": "4701"
+          }
+      },
+    "48 Bestandes\u00e4nderungen Vorr\u00e4te": {
+      "is_group": 1,
+          "Bestandes\u00e4nderungen Handelswaren": {
+          "account_number": "4800",
+          "account_type": "Stock Adjustment"
+          },
+          "Bestandes\u00e4nderungen Rohstoffe": {
+          "account_number": "4801",
+          "account_type": "Stock Adjustment"
+          },
+          "Bestandes\u00e4nderungen Hilfs- und Verbrauchsmaterial": {
+          "account_number": "4803",
+          "account_type": "Stock Adjustment"
+          },
+          "Bestandes\u00e4nderungen Halbfabrikate": {
+          "account_number": "4807",
+          "account_type": "Stock Adjustment"
+          }
+      },
+    "49 Einkaufspreisminderungen": {
+      "is_group": 1,
+          "Aufwandminderungen": {
+          "account_number": "4900"
+          }
+      }
+    },
+  "5 Personalaufwand": {
+    "root_type": "Expense",
+    "50 Lohnaufwand": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "L\u00f6hne": {
+          "account_number": "5000"
+          },
+          "Zulagen": {
+          "account_number": "5001"
+          },
+          "Erfolgsbeteiligungen + Provisionen": {
+          "account_number": "5002"
+          },
+          "Leistungen von Sozialversicherungen": {
+          "account_number": "5005"
+          }
+      },
+    "57 Sozialversicherungsaufwand": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "AHV,IV,EO,ALV": {
+          "account_number": "5700"
+          },
+          "FAK": {
+          "account_number": "5710"
+          },
+          "BVG Vorsorgeeinrichtungen": {
+          "account_number": "5720"
+          },
+          "UVG Unfallversicherung": {
+          "account_number": "5730"
+          },
+          "KTG Krankentaggeldversicherung": {
+          "account_number": "5740"
+          },
+          "Quellensteuer": {
+          "account_number": "5790"
+          }
+      },
+    "58 \u00fcbriger Personalaufwand": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Personalbeschaffung / Rekrutierung": {
+          "account_number": "5800"
+          },
+          "Weiterbildung": {
+          "account_number": "5810"
+          },
+          "Effektive Spesen": {
+          "account_number": "5820"
+          },
+          "Pauschalspesen": {
+          "account_number": "5830"
+          },
+          "Personalverpflegung": {
+          "account_number": "5840"
+          },
+          "\u00fcbriger Personalaufwand": {
+          "account_number": "5880"
+          }
+      },
+    "59 Leistungen Dritter": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Leistungen Dritter": {
+          "account_number": "5900"
+          },
+          "Tempor\u00e4re Arbeitnehmer": {
+          "account_number": "5901"
+          }
+      }
+    },
+  "6 \u00fcbriger betrieblicher Aufwand": {
+    "root_type": "Expense",
+    "60 Raumaufwand": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Fremdmieten Gesch\u00e4ftslokalit\u00e4ten": {
+          "account_number": "6000"
+          },
+          "Eigenmieten Gesch\u00e4ftslokalit\u00e4ten": {
+          "account_number": "6010"
+          },
+          "Nebenkosten": {
+          "account_number": "6030"
+          },
+          "Reinigung Gesch\u00e4ftsr\u00e4ume": {
+          "account_number": "6040"
+          },
+          "Unterhalt Gesch\u00e4ftsr\u00e4ume": {
+          "account_number": "6050"
+          }
+      },
+    "61 Unterhalt,Reparaturen,Ersatz (URE)": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "URE Maschinen und Apparate": {
+          "account_number": "6100"
+          },
+          "URE Mobiliar und Einrichtungen": {
+          "account_number": "6101"
+          },
+          "URE Werkzeuge und Ger\u00e4te": {
+          "account_number": "6102"
+          },
+          "URE Informatik und Kommunikationstechnologie": {
+          "account_number": "6132"
+          }
+      },
+    "62 Fahrzeug- und Transportaufwand": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Unterhalt Fahrzeuge": {
+          "account_number": "6200"
+          },
+          "Treibstoff Fahrzeuge": {
+          "account_number": "6210"
+          },
+          "Versicherungen Fahrzeuge": {
+          "account_number": "6220"
+          },
+          "Verkehrsabgaben,Steuern Fahrzeuge": {
+          "account_number": "6230"
+          },
+          "Fahrzeugleasing und -mieten": {
+          "account_number": "6260"
+          },
+          "Privatanteil Fahrzeugaufwand": {
+          "account_number": "6270"
+          }
+      },
+    "63 Sachversicherungen,Abgaben,Geb\u00fchren": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Sach-,Haftpflicht- und Betriebsversicherungen": {
+          "account_number": "6300"
+          },
+          "Geb\u00fchren und Abgaben": {
+          "account_number": "6360"
+          },
+          "Bewilligungen": {
+          "account_number": "6370"
+          }
+      },
+    "64 Energie- und Entsorgungsaufwand": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Strom": {
+          "account_number": "6400"
+          },
+          "Heiz\u00f6l,Kohle,Briketts,Holz": {
+          "account_number": "6420"
+          },
+          "Wasser,Abwasser": {
+          "account_number": "6430"
+          },
+          "Entsorgungsaufwand": {
+          "account_number": "6460"
+          }
+      },
+    "65 Verwaltungs- und Informatikaufwand": {
+      "account_type": "Expenses Included In Valuation",
+      "is_group": 1,
+          "B\u00fcromaterial": {
+          "account_number": "6500"
+          },
+          "Drucksachen": {
+          "account_number": "6501"
+          },
+          "Fotokopien,Miete + Service Drucker": {
+          "account_number": "6502"
+          },
+          "Fachliteratur,Zeitungen,Zeitschriften": {
+          "account_number": "6503"
+          },
+          "Telefon und Internet": {
+          "account_number": "6510"
+          },
+          "Porti": {
+          "account_number": "6513"
+          },
+          "Beitr\u00e4ge": {
+          "account_number": "6520"
+          },
+          "Spenden,Vergabungen,Trinkgelder": {
+          "account_number": "6521"
+          },
+          "Buchf\u00fchrung": {
+          "account_number": "6530"
+          },
+          "Unternehmens- und Rechtsberatung": {
+          "account_number": "6531"
+          },
+          "Aufwand Verwaltungsrat,Generalversammlung,Revisionsstelle": {
+          "account_number": "6540"
+          },
+          "Gr\u00fcndungs-,Kapitalerh\u00f6hungs- und Organisationsaufwand": {
+          "account_number": "6550"
+          },
+          "Inkasso- und Betreibungsaufwand": {
+          "account_number": "6551"
+          },
+          "Sonstiger Verwaltungsaufwand": {
+          "account_number": "6559"
+          },
+          "Informatikaufwand (Mieten,Lizenzen,Wartung)": {
+          "account_number": "6570"
+          },
+          "Beratungsaufwand Informatik": {
+          "account_number": "6590"
+          }
+      },
+    "66 Werbeaufwand": {
+      "account_type": "Expenses Included In Valuation",
+      "is_group": 1,
+          "Werbeinserate,elektronische Medien": {
+          "account_number": "6600"
+          },
+          "Werbedrucksachen,-material,Muster": {
+          "account_number": "6610"
+          },
+          "Schaufenster,Dekoration": {
+          "account_number": "6620"
+          },
+          "Fachmessen,Ausstellungen": {
+          "account_number": "6621"
+          },
+          "Reisespesen,Kundenbetreuung": {
+          "account_number": "6640"
+          },
+          "Kundengeschenke": {
+          "account_number": "6642"
+          },
+          "Werbebeitr\u00e4ge,Sponsoring": {
+          "account_number": "6660"
+          },
+          "Kundenanl\u00e4sse": {
+          "account_number": "6670"
+          },
+          "Werbeberatung,Marktanalysen": {
+          "account_number": "6680"
+          },
+          "Privatanteile Werbeaufwand": {
+          "account_number": "6690"
+          }
+      },
+    "67 Sonstiger betrieblicher Aufwand": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Wirtschaftsausk\u00fcnfte,Betreibungen": {
+          "account_number": "6700"
+          },
+          "Forschung und Entwicklung": {
+          "account_number": "6720"
+          },
+          "Vorsteuerkorrektur (bei gemischter Verwendung)": {
+          "account_number": "6740"
+          },
+          "Sonstiger betrieblicher Aufwand": {
+          "account_number": "6790"
+          }
+      },
+    "68 Abschreibungen und Wertberichtigungen": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Wertberichtigungen Wertschriften": {
+          "account_number": "6800"
+          },
+          "Abschreibungen und Wertberichtigungen Maschinen und Apparate": {
+          "account_number": "6820",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Abschreibungen und Wertberichtigungen Mobiliar und Einrichtungen": {
+          "account_number": "6821",
+          "account_type": "Depreciation"
+          },
+          "Abschreibungen und Wertberichtigungen B\u00fcromaschinen,Informatik": {
+          "account_number": "6822",
+          "account_type": "Depreciation"
+          },
+          "Abschreibungen und Wertberichtigungen Fahrzeuge": {
+          "account_number": "6823",
+          "account_type": "Depreciation"
+          },
+          "Abschreibungen und Wertberichtigungen Werkzeuge und Ger\u00e4te": {
+          "account_number": "6824",
+          "account_type": "Depreciation"
+          },
+          "Abschreibungen und Wertberichtigungen Gesch\u00e4ftsliegenschaften": {
+          "account_number": "6830",
+          "account_type": "Depreciation"
+          }
+      },
+    "69 Finanzaufwand und Finanzertrag": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Zinsaufwand": {
+          "account_number": "6900",
+          "account_type": "Expense Account"
+          },
+          "Bankspesen und Depotgeb\u00fchren": {
+          "account_number": "6940"
+          },
+          "Kursverluste Wertschriften": {
+          "account_number": "6942"
+          },
+          "W\u00e4hrungsverluste": {
+          "account_number": "6949"
+          },
+          "Zinsertr\u00e4ge": {
+          "account_number": "6950"
+          },
+          "Ertr\u00e4ge aus Wertschriften": {
+          "account_number": "6960"
+          },
+          "Kursgewinne Wertschriften": {
+          "account_number": "6992"
+          },
+          "W\u00e4hrungsgewinne": {
+          "account_number": "6999"
+          }
+      }
+    },
+  "7 Betrieblicher Nebenerfolg": {
+    "root_type": "Income",
+    "70 Erfolg aus Nebenbetrieben": {
+       "account_type": "Income Account",
+       "is_group": 1,
+          "Ertrag Nebenbetrieb": {
+          "account_number": "7000"
+          },
+          "Aufwand Nebenbetrieb": {
+          "account_number": "7010"
+          }
+      },
+    "75 Erfolg aus betrieblichen Liegenschaften": {
+      "account_type": "Income Account",
+      "is_group": 1,
+          "Ertrag betriebliche Liegenschaft": {
+          "account_number": "7500"
+          },
+          "Aufwand betriebliche Liegenschaft": {
+          "account_number": "7510"
+          }
+      }
+    },
+  "8 Betriebsfremder,ao. Erfolg + Steuern": {
+    "root_type": "Income",
+    "80 Betriebsfremder Erfolg": {
+      "account_type": "Income Account",
+      "is_group": 1,
+          "Betriebsfremder Aufwand": {
+          "account_number": "8000"
+          },
+          "Betriebsfremder Ertrag": {
+          "account_number": "8100"
+          }
+      },
+    "85 Ausserordentlicher Erfolg": {
+      "account_type": "Income Account",
+      "is_group": 1,
+          "Ausserordentlicher,einmaliger oder periodenfremder Aufwand": {
+          "account_number": "8500"
+          },
+          "Ausserordentlicher,einmaliger oder periodenfremder Ertrag": {
+          "account_number": "8510"
+          }
+      },
+    "89 Direkte Steuern": {
+      "is_group": 1,
+          "Direkte Bundessteuer": {
+          "account_number": "8900",
+          "account_type": "Tax"
+          },
+          "Kantons- und Gemeindesteuern": {
+          "account_number": "8901",
+          "account_type": "Tax"
+          }
+      }
+    },
+  "9 Abschluss": {
+    "root_type": "Income",
+      "is_group": 1,
+          "Jahresgewinn": {
+          "account_number": "9000",
+          "account_type": "Income Account"
+          },
+      "Jahresverlust": {
+          "account_number": "9010",
+          "account_type": "Income Account"
+          }
+    }
+  }
+}

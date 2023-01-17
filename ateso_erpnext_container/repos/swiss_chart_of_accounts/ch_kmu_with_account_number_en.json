@@ -1,0 +1,981 @@
+{
+"country_code": "ch",
+"name": "Schweizer Kontenplan KMU (Englisch)",
+"tree": {
+  "1 Active": {
+    "root_type": "Asset",
+    "10 Working capital": {
+      "100 Cash and cash equivalents": {
+      "is_group": 1,
+          "Cash": {
+          "account_number": "1000",
+          "account_type": "Cash"
+          },
+          "Postal account": {
+          "account_number": "1010",
+          "account_type": "Cash"
+          },
+          "Bank": {
+              "Bank CHF": {
+              "account_number": "1020",
+              "account_type": "Bank"
+              },
+              "Bank EUR": {
+              "account_number": "1021",
+              "account_type": "Bank"
+              },
+            "account_type": "Bank"
+            }
+        },
+      "106 Short-term assets with stock market price": {
+      "is_group": 1,
+          "Short term securities": {
+          "account_number": "1060"
+          },
+          "Value adjustments to securities": {
+          "account_number": "1069"
+          }
+        },
+      "109 Transfer accounts": {
+      "is_group": 1,
+          "Transfer account": {
+          "account_number": "1090"
+          },
+          "Payroll account": {
+          "account_number": "1091"
+          },
+          "Unclear amounts / pending issues": {
+          "account_number": "1099"
+          }
+        },
+      "110 Receivable": {
+      "account_type": "Receivable",
+      "is_group": 1,
+          "Accounts receivable": {
+          "account_number": "1100",
+          "account_type": "Receivable"
+          },
+          "Allowance for bad debts": {
+          "account_number": "1109"
+          }
+        },
+      "114 Other short-term receivables": {
+      "account_type": "Receivable",
+      "is_group": 1,
+          "Advances and short term loans": {
+          "account_number": "1140"
+          },
+          "Short-term receivables from shareholders": {
+          "account_number": "1160"
+          },
+          "VAT (MWST) materials, goods, services": {
+          "account_number": "1170"
+          },
+          "VAT (MWST) investments, other operating expenses": {
+          "account_number": "1171"
+          },
+          "Customer withholding tax": {
+          "account_number": "1176"
+          },
+          "Receivable against social security and pension funds": {
+          "account_number": "1180"
+          },
+          "Withholding tax": {
+          "account_number": "1189"
+          },
+          "Other short-term receivables": {
+          "account_number": "1190"
+          },
+          "Security deposits": {
+          "account_number": "1191"
+          },
+          "Prepayments made": {
+          "account_number": "1192"
+          },
+          "Rental deposit": {
+          "account_number": "1193"
+          },
+          "Allowances for other short-term receivables": {
+          "account_number": "1199"
+          }
+        },
+      "120 Inventories + non-invoicing services": {
+      "is_group": 1,
+          "Inventories of merchandise": {
+          "account_number": "1200",
+          "account_type": "Stock"
+          },
+          "Stocks of raw materials": {
+          "account_number": "1210",
+          "account_type": "Stock"
+          },
+          "Inventories of auxiliary and consumable materials": {
+          "account_number": "1230",
+          "account_type": "Stock"
+          },
+          "Stocks of finished products": {
+          "account_number": "1240",
+          "account_type": "Stock"
+          },
+          "Stocks of semi-finished products": {
+          "account_number": "1250",
+          "account_type": "Stock"
+          },
+          "Capital Work in Progress": {
+          "account_number": "1270",
+          "account_type": "Work in Progress"
+          },
+          "Existed services that were not invoiced": {
+          "account_number": "1280",
+          "account_type": "Capital Work in Progress"
+          }
+        },
+      "130 Active accruals and deferrals": {
+      "is_group": 1,
+          "Transitory assets": {
+          "account_number": "1300"
+          },
+          "Income not yet received": {
+          "account_number": "1301"
+          }
+        }
+      },
+    "14 Fixed Assets": {
+    "account_type": "Fixed Asset",
+    "is_group": 1,
+      "140 Financial assets": {
+      "is_group": 1,
+          "Securities": {
+          "account_number": "1400"
+          },
+          "Value adjustments to securities": {
+          "account_number": "1409"
+          },
+          "Loan": {
+          "account_number": "1440"
+          },
+          "Mortgages": {
+          "account_number": "1441"
+          },
+          "Long-term value adjustment requirements": {
+          "account_number": "1449"
+          }
+        },
+      "150 Mobile tangible assets": {
+      "account_type": "Fixed Asset",
+      "is_group": 1,
+          "Machines and apparatus": {
+          "account_number": "1500",
+          "account_type": "Fixed Asset"
+          },
+          "Allowances for machines and apparatus": {
+          "account_number": "1509",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Furniture and facilities": {
+          "account_number": "1510",
+          "account_type": "Fixed Asset"
+          },
+          "Valuation allowances for furniture and fittings": {
+          "account_number": "1519",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Office machines, IT, communication technology": {
+          "account_number": "1520",
+          "account_type": "Fixed Asset"
+          },
+          "Allowances for office machines, IT, communication technology": {
+          "account_number": "1529",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Vehicles": {
+          "account_number": "1530",
+          "account_type": "Fixed Asset"
+          },
+          "Allowances for vehicles": {
+          "account_number": "1539",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Tools and equipment": {
+          "account_number": "1540",
+          "account_type": "Fixed Asset"
+          },
+          "Allowances for tools and equipment": {
+          "account_number": "1549",
+          "account_type": "Accumulated Depreciation"
+          }
+        },
+      "160 Property, plant and equipment": {
+      "account_type": "Fixed Asset",
+      "is_group": 1,
+          "Commercial properties": {
+          "account_number": "1600",
+          "account_type": "Fixed Asset"
+          },
+          "Allowances for commercial properties": {
+          "account_number": "1609",
+          "account_type": "Accumulated Depreciation"
+          }
+        },
+      "170 Intangible assets": {
+      "account_type": "Fixed Asset",
+      "is_group": 1,
+          "Patents, know-how, licenses, rights, developments": {
+          "account_number": "1700",
+          "account_type": "Fixed Asset"
+          },
+          "Allowances for patents, know-how, licenses, rights, developments": {
+          "account_number": "1709",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Goodwill": {
+          "account_number": "1770",
+          "account_type": "Fixed Asset"
+          },
+          "Goodwill impairment": {
+          "account_number": "1779",
+          "account_type": "Accumulated Depreciation"
+          }		  
+        }		
+      }
+    },
+  "2 Passives A": {
+    "root_type": "Liability",
+    "20 Short-term borrowed capital": {
+      "200 Payables deliveries + services": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Accounts payable": {
+          "account_number": "2000",
+          "account_type": "Payable"
+          },
+          "Payments received": {
+          "account_number": "2030",
+          "account_type": "Payable"
+          }
+        },
+      "210 Short term interest-bearing liabilities": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Short-term bank debt": {
+          "account_number": "2100"
+          },
+          "Credit card": {
+          "account_number": "2110"
+          },
+          "Current finance lease liabilities": {
+          "account_number": "2120"
+          },
+          "Other interest-bearing liabilities": {
+          "account_number": "2140"
+          }
+        },
+      "220 Other short-term liabilities": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "VAT owed": {
+          "account_number": "2200",
+          "account_type": "Tax"
+          },
+          "Settlement account VAT": {
+          "account_number": "2201"
+          },
+          "Vendor withholding tax": {
+          "account_number": "2206",
+          "account_type": "Tax"
+          },
+          "Direct taxes": {
+          "account_number": "2208"
+          },
+          "Other current liabilities": {
+          "account_number": "2210"
+          },
+          "Decided distributions / dividends": {
+          "account_number": "2261"
+          },
+          "Social insurance and pension funds": {
+          "account_number": "2270"
+          },
+          "Withholding tax owed": {
+          "account_number": "2279"
+          }
+        },
+      "230 Passive invoice analysis + short-term provisions": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Effort not yet paid": {
+          "account_number": "2300"
+          },
+          "Earnings received for the following year": {
+          "account_number": "2301"
+          },
+          "Provisions for warranty obligations": {
+          "account_number": "2330"
+          },
+          "Provisions for taxes": {
+          "account_number": "2340"
+          },
+          "Provisions for repairs and maintenance": {
+          "account_number": "2350"
+          },
+          "Provisions for salary obligations": {
+          "account_number": "2371"
+          },
+          "Other short-term provisions": {
+          "account_number": "2391"
+          }
+        }
+      },
+    "24 Long-term liabilities": {
+      "240 Long-term interest-bearing liabilities": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Long-term bank debt": {
+          "account_number": "2400"
+          },
+          "Long-term finance lease liabilities": {
+          "account_number": "2420"
+          },
+          "Loan Passive": {
+          "account_number": "2450"
+          },
+          "Mortgage Passive": {
+          "account_number": "2451"
+          }
+        },
+      "250 Other long-term liabilities": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "other long-term liabilities (interest-free)": {
+          "account_number": "2500"
+          }
+        },
+      "260 Provisions + similar items according to OR": {
+      "account_type": "Payable",
+      "is_group": 1,
+          "Long-term provisions": {
+          "account_number": "2600"
+          }
+        }
+      }
+    },
+  "2 Passives Equity": {
+    "root_type": "Equity",
+    "28 Equity (legal entity AG, GmbH, foundation)": {
+      "280 Share capital": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Share capital": {
+          "account_number": "2800",
+          "account_type": "Equity"
+          }
+        },
+      "290 Reserves, profit / loss carryforward": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Statutory capital reserve": {
+          "account_number": "2900"
+          },
+          "Revaluation reserve": {
+          "account_number": "2940"
+          },
+          "Statutory retained earnings": {
+          "account_number": "2950"
+          },
+          "Voluntary retained earnings": {
+          "account_number": "2960"
+          },
+          "Profit carryforward or loss carryforward": {
+          "account_number": "2970"
+          },
+          "Annual profit, annual loss": {
+          "account_number": "2979"
+          }
+        }
+      },
+    "28 Equity (sole proprietorship)": {
+      "280 Share capital": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Capital sole proprietorship": {
+          "account_number": "2810",
+          "account_type": "Equity"
+          },
+          "Private": {
+          "account_number": "2850"
+          }
+        }
+      },
+    "28 Equity (collective / limited partnership)": {
+      "280 Share capital, share capital": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Capital shareholder": {
+          "account_number": "2820"
+          },
+          "Private partner": {
+          "account_number": "2821"
+          },
+          "Capital limited partner": {
+          "account_number": "2851"
+          }
+        }
+      },
+    "28 Equity (association)": {
+      "280 Share capital": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Association capital": {
+          "account_number": "2830",
+          "account_type": "Equity"
+          }
+        },
+      "290 Reserves, profit / loss carryforward": {
+      "account_type": "Equity",
+      "is_group": 1,
+          "Voluntary profit reserves": {
+          "account_number": "2961"
+          },
+          "Profit carried forward or loss carried forward": {
+          "account_number": "2971"
+          }
+        }
+      }
+    },
+  "3 Operating income from delivery + performance": {
+    "root_type": "Income",
+    "30 Income": {
+      "is_group": 1,
+          "Production Revenues": {
+          "account_number": "3000",
+          "account_type": "Income Account"
+          },
+          "Trade revenues": {
+          "account_number": "3200",
+          "account_type": "Income Account"
+          },
+          "Service revenues": {
+          "account_number": "3400",
+          "account_type": "Income Account"
+          }
+      },
+    "36 Remaining income from delivery + service": {
+      "is_group": 1,
+          "Remaining proceeds from deliveries and services": {
+          "account_number": "3600",
+          "account_type": "Income Account"
+          }
+      },
+    "37 Own work and own consumption": {
+      "is_group": 1,
+          "Own work": {
+          "account_number": "3700"
+          },
+          "ownconsumption": {
+          "account_number": "3710"
+          }
+      },
+    "38 Reductions in revenue": {
+      "is_group": 1,
+          "Reductions in revenue": {
+          "account_number": "3800"
+          },
+          "Losses receivables (debtors), change in del credere": {
+          "account_number": "3805"
+          },
+          "VAT net tax rate": {
+          "account_number": "3809"
+          }
+      },
+    "39 Changes in inventory": {
+      "is_group": 1,
+          "Changes in inventory work in progress": {
+          "account_number": "3900",
+          "account_type": "Stock Adjustment"
+          },
+          "Changes in inventory of finished products": {
+          "account_number": "3901",
+          "account_type": "Stock Adjustment"
+          },
+          "Changes in inventory of non-invoiced services": {
+          "account_number": "3940"
+          }
+      }
+    },
+  "4 Expenditure on material, merchandise, services": {
+    "root_type": "Expense",
+    "40 Cost of materials": {
+      "is_group": 1,
+          "Cost of materials in production": {
+          "account_number": "4000",
+          "account_type": "Cost of Goods Sold"
+          }
+      },
+    "42 Trade goods expense": {
+      "is_group": 1,
+          "Trade goods expense": {
+          "account_number": "4200",
+          "account_type": "Cost of Goods Sold"
+          }
+      },
+    "44 Expenditure for purchased services": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Expenditure for purchased services": {
+          "account_number": "4400"
+          }
+      },
+    "45 Energy expenditure for the production of services": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Energy expenditure for the production of services": {
+          "account_number": "4500"
+          }
+      },
+    "46 Remaining expenditure material, merchandise": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Other cost of materials for production": {
+          "account_number": "4600"
+          },
+          "Remaining merchandise expenses": {
+          "account_number": "4620"
+          },
+          "Packaging costs": {
+          "account_number": "4650"
+          },
+          "Change in warranty provisions": {
+          "account_number": "4660"
+          }
+      },
+    "47 Direct purchase cost": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Inbound freight and forwarding cost": {
+          "account_number": "4700"
+          },
+          "Import duties": {
+          "account_number": "4701"
+          }
+      },
+    "48 Changes in inventory": {
+      "is_group": 1,
+          "Changes in inventory of merchandise": {
+          "account_number": "4800",
+          "account_type": "Stock Adjustment"
+          },
+          "Changes in stocks of raw materials": {
+          "account_number": "4801",
+          "account_type": "Stock Adjustment"
+          },
+          "Changes in inventory of auxiliary and consumable materials": {
+          "account_number": "4803",
+          "account_type": "Stock Adjustment"
+          },
+          "Changes in inventory of semi-finished products": {
+          "account_number": "4807",
+          "account_type": "Stock Adjustment"
+          }
+      },
+    "49 Purchase price reductions": {
+      "is_group": 1,
+          "Reduced effort": {
+          "account_number": "4900"
+          }
+      }
+    },
+  "5 Personnel expenses": {
+    "root_type": "Expense",
+    "50 Labor costs": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Wages and salaries": {
+          "account_number": "5000"
+          },
+          "Allowances": {
+          "account_number": "5001"
+          },
+          "Profit sharing + commissions": {
+          "account_number": "5002"
+          },
+          "Social security benefits": {
+          "account_number": "5005"
+          }
+      },
+    "57 Social security expense": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "AHV,IV,EO,ALV": {
+          "account_number": "5700"
+          },
+          "FAK": {
+          "account_number": "5710"
+          },
+          "BVG pension schemes": {
+          "account_number": "5720"
+          },
+          "UVG Accident insurance": {
+          "account_number": "5730"
+          },
+          "KTG Daily sickness allowance insurance": {
+          "account_number": "5740"
+          },
+          "Withholding tax": {
+          "account_number": "5790"
+          }
+      },
+    "58 Other personnel expenses": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Recruiting / Recruiting": {
+          "account_number": "5800"
+          },
+          "Further education": {
+          "account_number": "5810"
+          },
+          "Effective expenses": {
+          "account_number": "5820"
+          },
+          "Flat-rate expenses": {
+          "account_number": "5830"
+          },
+          "Staff catering": {
+          "account_number": "5840"
+          },
+          "Other personnel expenses": {
+          "account_number": "5880"
+          }
+      },
+    "59 Third party contributions": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Third party contributions": {
+          "account_number": "5900"
+          },
+          "Temporary employees": {
+          "account_number": "5901"
+          }
+      }
+    },
+  "6 Other operational expenses": {
+    "root_type": "Expense",
+    "60 Facility expenses": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Third-party rents of business premises": {
+          "account_number": "6000"
+          },
+          "Own rents of business premises": {
+          "account_number": "6010"
+          },
+          "Extra costs": {
+          "account_number": "6030"
+          },
+          "Cleaning business premises": {
+          "account_number": "6040"
+          },
+          "Maintenance of business premises": {
+          "account_number": "6050"
+          }
+      },
+    "61 Maintenance, repairs, replacement": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "maintain machines and apparatus": {
+          "account_number": "6100"
+          },
+          "Maintenance of furniture and facilities": {
+          "account_number": "6101"
+          },
+          "Maintenance tools and equipment": {
+          "account_number": "6102"
+          },
+          "Maintenance of computer science and communication technology": {
+          "account_number": "6132"
+          }
+      },
+    "62 Vehicle and transport costs": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Vehicle maintenance": {
+          "account_number": "6200"
+          },
+          "Fuel vehicles": {
+          "account_number": "6210"
+          },
+          "Insurance vehicles": {
+          "account_number": "6220"
+          },
+          "Transport taxes, taxes vehicles": {
+          "account_number": "6230"
+          },
+          "Vehicle leasing and rental": {
+          "account_number": "6260"
+          },
+          "Private share of vehicle expenses": {
+          "account_number": "6270"
+          }
+      },
+    "63 Property insurance, taxes, fees": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Property, liability and business insurance": {
+          "account_number": "6300"
+          },
+          "Fees and taxes": {
+          "account_number": "6360"
+          },
+          "Permits": {
+          "account_number": "6370"
+          }
+      },
+    "64 Energy and disposal costs": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Electricity consumption": {
+          "account_number": "6400"
+          },
+          "Heating oil, coal, briquettes, wood": {
+          "account_number": "6420"
+          },
+          "Water sewage": {
+          "account_number": "6430"
+          },
+          "Disposal expenditure": {
+          "account_number": "6460"
+          }
+      },
+    "65 Administrative and IT expenses": {
+      "account_type": "Expenses Included In Valuation",
+      "is_group": 1,
+          "Office material": {
+          "account_number": "6500"
+          },
+          "Printed matter": {
+          "account_number": "6501"
+          },
+          "Photocopies, rental + service printer": {
+          "account_number": "6502"
+          },
+          "Technical literature, newspapers, magazines": {
+          "account_number": "6503"
+          },
+          "Telephone and internet": {
+          "account_number": "6510"
+          },
+          "Postage accounting": {
+          "account_number": "6513"
+          },
+          "Contributions": {
+          "account_number": "6520"
+          },
+          "Donations, gifts, tips": {
+          "account_number": "6521"
+          },
+          "Bookkeeping": {
+          "account_number": "6530"
+          },
+          "Business and legal advice": {
+          "account_number": "6531"
+          },
+          "Expenses for the board of directors, general assembly, auditors": {
+          "account_number": "6540"
+          },
+          "Establishment, capital increase and organizational expenses": {
+          "account_number": "6550"
+          },
+          "Collection and debt enforcement expenses": {
+          "account_number": "6551"
+          },
+          "Other administrative expenses": {
+          "account_number": "6559"
+          },
+          "IT expenses (rents, licenses, maintenance)": {
+          "account_number": "6570"
+          },
+          "IT consulting effort": {
+          "account_number": "6590"
+          }
+      },
+    "66 Advertising expenses": {
+      "account_type": "Expenses Included In Valuation",
+      "is_group": 1,
+          "Advertising, electronic media": {
+          "account_number": "6600"
+          },
+          "Advertising printed matter, material, samples": {
+          "account_number": "6610"
+          },
+          "Shop window, decoration": {
+          "account_number": "6620"
+          },
+          "Trade fairs, exhibitions": {
+          "account_number": "6621"
+          },
+          "Travel expenses, customer care": {
+          "account_number": "6640"
+          },
+          "Customer gifts": {
+          "account_number": "6642"
+          },
+          "Advertising contributions, sponsoring": {
+          "account_number": "6660"
+          },
+          "Customer events": {
+          "account_number": "6670"
+          },
+          "Advertising advice, market analysis": {
+          "account_number": "6680"
+          },
+          "Private share of advertising expenditure": {
+          "account_number": "6690"
+          }
+      },
+    "67 Other operational expenses": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Economic information, debt enforcement": {
+          "account_number": "6700"
+          },
+          "Research and Development": {
+          "account_number": "6720"
+          },
+          "Input tax correction (with mixed use)": {
+          "account_number": "6740"
+          },
+          "Other operational expenses": {
+          "account_number": "6790"
+          }
+      },
+    "68 Depreciation and value adjustments": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Value adjustments to securities": {
+          "account_number": "6800"
+          },
+          "Depreciation and valuation adjustments for machines and apparatus": {
+          "account_number": "6820",
+          "account_type": "Accumulated Depreciation"
+          },
+          "Depreciation and valuation allowances for furniture and furnishings": {
+          "account_number": "6821",
+          "account_type": "Depreciation"
+          },
+          "Depreciation and amortization of office machines, IT": {
+          "account_number": "6822",
+          "account_type": "Depreciation"
+          },
+          "Depreciation and valuation adjustments vehicles": {
+          "account_number": "6823",
+          "account_type": "Depreciation"
+          },
+          "Depreciation and Adjustments Tools and Equipment": {
+          "account_number": "6824",
+          "account_type": "Depreciation"
+          },
+          "Depreciation and valuation allowances for commercial properties": {
+          "account_number": "6830",
+          "account_type": "Depreciation"
+          }
+      },
+    "69 Finance expense and finance income": {
+      "account_type": "Expense Account",
+      "is_group": 1,
+          "Interest expense": {
+          "account_number": "6900",
+          "account_type": "Expense Account"
+          },
+          "Bank charges and custody fees": {
+          "account_number": "6940"
+          },
+          "Losses in securities prices": {
+          "account_number": "6942"
+          },
+          "Currency losses": {
+          "account_number": "6949"
+          },
+          "Interest income": {
+          "account_number": "6950"
+          },
+          "Income from securities": {
+          "account_number": "6960"
+          },
+          "Price gains securities": {
+          "account_number": "6992"
+          },
+          "Currency gains": {
+          "account_number": "6999"
+          }
+      }
+    },
+  "7 Operational side success": {
+    "root_type": "Income",
+    "70 Success from secondary businesses": {
+       "account_type": "Income Account",
+       "is_group": 1,
+          "Revenue from secondary operations": {
+          "account_number": "7000"
+          },
+          "Cost of secondary operation": {
+          "account_number": "7010"
+          }
+      },
+    "75 Success from operational properties": {
+      "account_type": "Income Account",
+      "is_group": 1,
+          "Income from operational property": {
+          "account_number": "7500"
+          },
+          "Cost of operational property": {
+          "account_number": "7510"
+          }
+      }
+    },
+  "8 External, extraordinary success + taxes": {
+    "root_type": "Income",
+    "80 External success": {
+      "account_type": "Income Account",
+      "is_group": 1,
+          "External expenses": {
+          "account_number": "8000"
+          },
+          "Non-operating income": {
+          "account_number": "8100"
+          }
+      },
+    "85 Extraordinary success": {
+      "account_type": "Income Account",
+      "is_group": 1,
+          "Extraordinary, one-time or out-of-period expenses": {
+          "account_number": "8500"
+          },
+          "Extraordinary, one-time or non-period income": {
+          "account_number": "8510"
+          }
+      },
+    "89 Direct taxes": {
+      "is_group": 1,
+          "Direct federal tax": {
+          "account_number": "8900",
+          "account_type": "Tax"
+          },
+          "Cantonal and municipal taxes": {
+          "account_number": "8901",
+          "account_type": "Tax"
+          }
+      }
+    },
+  "9 Closing": {
+    "root_type": "Income",
+      "is_group": 1,
+          "Annual profit": {
+          "account_number": "9000",
+          "account_type": "Income Account"
+          },
+      "Annual loss": {
+          "account_number": "9010",
+          "account_type": "Income Account"
+          }
+    }
+  }
+}
